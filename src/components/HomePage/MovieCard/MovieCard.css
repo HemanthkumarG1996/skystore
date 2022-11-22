@@ -1,0 +1,38 @@
+.no-banner {
+  margin-top: 0;
+}
+
+.no-banner .thin-text {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  .container.movie-cards-section.no-mini-banners .no-head {
+    display: none;
+  }
+}
+@media (max-width: 800px) and (min-width: 600px) {
+  .main-box .movie-details {
+    max-width: 25%;
+  }
+}
+
+/* @media (max-width: 500px) {
+  .main-box .movie-details {
+    max-width: 33%;
+    padding: 10px 5px;
+  }
+} */
+
+@media (max-width: 600px) {
+  .btn-area .back-to-top {
+    position: static;
+    display: block;
+    margin-top: 30px;
+  }
+  .main-box .movie-details {
+    max-width: 33%;
+    padding: 10px 5px;
+  }
+}

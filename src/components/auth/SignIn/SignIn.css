@@ -1,0 +1,293 @@
+.signin-container {
+  position: relative;
+  width: 60em;
+  margin: 0 auto;
+}
+
+#signin-box {
+  min-height: 522px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.signin-container .background-signin {
+  background: transparent
+    url(https://skyidassets-a.akamaihd.net/static/HDyNMU7ofG1E78n7yH7eB3Rj2vh4pWskfZHMiqX0N9M.jpg)
+    no-repeat 0 0;
+  height: 522px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+
+.sub-panel {
+  border-top: 1px solid #aaa;
+}
+
+.signin-logo {
+  /* padding: 5px 0; */
+  width: 55%;
+}
+.signin-logo img {
+  width: 55%;
+}
+.signin-panel {
+  position: relative;
+  top: 0;
+  margin: 0;
+  width: 15.625em;
+  float: right;
+  z-index: 100;
+  margin-right: 3.125em;
+  margin-bottom: 1em;
+  border: 1px solid #cccccc;
+  background: white;
+}
+
+.signin-panel .panel {
+  width: 12.5em;
+  margin: 0 1.5625em;
+}
+
+.signin-panel .panel-header {
+  margin: 0.625em 0 0 0;
+}
+
+.panel {
+  background: white;
+}
+
+.sub-panel h3 {
+  margin: 5px 0 10px 0;
+}
+
+.signin-title {
+  font-size: 1.75em;
+  color: #053477;
+}
+
+.sub-panel div.label {
+  color: black;
+  margin-bottom: 0.625em;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+  margin-bottom: 7px;
+}
+
+#signin-box p {
+  color: #666666;
+  font: 12px Arial, sans-serif;
+}
+
+#signin-box .panel input[type="text"],
+.signin-panel .panel input[type="password"] {
+  width: 16.666667em;
+  height: 23px;
+  font-size: 12px;
+}
+
+.link {
+  color: black;
+  margin: 5px 0;
+}
+
+.link a {
+  color: #0061a6;
+}
+
+.label.flex-checkbox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.label span {
+  display: inline;
+  line-height: normal;
+  margin-left: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+}
+
+.buttonRow {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.sky-btn {
+  background-color: #0061a6;
+  background-image: url(../../../images/sky-btn.gif);
+  border-color: #0061a6;
+  border-top: 1px solid #0061a6;
+  width: auto;
+  padding: 0px 10px;
+  height: 26px;
+  background-clip: padding-box;
+  color: #ffffff;
+  overflow: hidden;
+  border-top: 1px solid #999;
+  border-width: 1px 0 0 0;
+  border-radius: 5px;
+  display: inline;
+  font-size: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.new-to-sky {
+  border-top: 1px solid #cccccc;
+  padding-top: 0.9375em;
+  padding-bottom: 1em;
+}
+
+.signup-btn-section p {
+  float: left;
+  margin: 1.166666666666667em 0 0 0;
+}
+
+.signup-btn-section button {
+  float: right;
+  margin-bottom: 1em;
+}
+
+.sky-btn-dark {
+  background: #4d4d4f url(../../../images/sky-btn-dark.gif);
+  border-top: 1px solid #0061a6;
+  width: auto;
+  padding: 0px 10px;
+  height: 26px;
+  background-clip: padding-box;
+  color: #ffffff;
+  overflow: hidden;
+  border-top: 1px solid #999;
+  border-width: 1px 0 0 0;
+  border-radius: 5px;
+  display: inline;
+  font-size: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mobile {
+  display: none;
+}
+
+.label span.danger {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+  #signin-box .panel input[type="text"],
+  .signin-panel .panel input[type="password"] {
+    width: 100%;
+    height: 38px;
+    font-size: 12px;
+  }
+  .mobile {
+    display: block;
+    margin: 10px;
+  }
+
+  #signin-box p {
+    font: 14px Arial, sans-serif;
+  }
+
+  label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .sub-panel h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .label span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .signin-panel .panel {
+    width: 100%;
+    margin: 0;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .new-to-sky {
+    display: none;
+  }
+
+  .sky-btn {
+    width: 240px;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 15px;
+    float: none;
+    background-position: 0 -8px;
+  }
+
+  .signin-container .background-signin {
+    display: none;
+  }
+  .signin-container {
+    width: 100%;
+  }
+
+  div#signin-box {
+    display: flex;
+    justify-content: center;
+  }
+  .signin-panel {
+    margin-right: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+}
+
+/* Global Footer CSS */
+
+div#globalFooter {
+  border-top: 1px solid #cccccc;
+}
+
+.signin-container #globalFooter .globalFooterBottom {
+  margin: 0 0 0 3.125em;
+  width: auto;
+}
+
+#globalFooter .globalFooterBottom ul li {
+  color: #0061a6;
+  display: inline;
+}
+
+#globalFooter ul li:first-child a {
+  border-left: none;
+}
+#globalFooter ul li a {
+  border-left: solid 1px #cccccc;
+  padding: 0 0.5em;
+  color: #0061a6;
+}
+
+#globalFooter ul li a,
+#globalFooter #copyright {
+  font-size: 0.625em;
+}
+
+#copyright {
+  float: right;
+  padding-top: 5px;
+  color: #666666;
+}

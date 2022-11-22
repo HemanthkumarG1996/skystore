@@ -1,0 +1,84 @@
+.single-movie-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ul.movie-meta-detals li {
+  display: inline;
+  padding: 0 10px;
+  border-right: 1px solid white;
+  color: #a3b2c4;
+  font-size: 1rem;
+}
+
+ul.movie-meta-detals li:first-child {
+  padding-left: 0;
+}
+
+ul.movie-meta-detals li:last-child {
+  border-right: none;
+}
+
+.movie-desc-image {
+  text-align: center;
+  margin: 10px;
+}
+
+.sub-info a {
+  color: #78b6fa !important;
+  margin-right: 15px;
+}
+
+h2.movie-title {
+  margin-bottom: 20px;
+}
+
+.movie-info {
+  margin-top: 30px;
+}
+
+p.small-info {
+  color: #a3b2c4;
+}
+
+.super-info .col-md-2 {
+  width: 25%;
+}
+
+.super-info .col-md-10 {
+  width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-desc-image {
+    text-align: center;
+    margin: 10px;
+    width: 254px;
+    margin: 0 auto 20px auto;
+  }
+}
+
+/* Trailer Link */
+
+p.trailer-text {
+  text-align: left;
+  margin-top: 20px;
+  color: #78b6fa !important;
+}
+.trailer-text span {
+  padding-right: 5px;
+}
+
+a:hover p.trailer-text {
+  color: #f4ce24 !important;
+}
+
+p.trailer-text i.fa-play {
+  border-radius: 50px;
+  border: 2px solid #78b6fa;
+  padding: 6px 5px 4px 8px;
+  font-size: 10px;
+}
+a:hover p.trailer-text i.fa-play {
+  border-color: #f4ce24;
+}

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Sky Text";
+
+  src: url("//db.onlinewebfonts.com/t/0073e3300330cceadd2ceaa220b38423.eot");
+
+  src: url("//db.onlinewebfonts.com/t/0073e3300330cceadd2ceaa220b38423.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0073e3300330cceadd2ceaa220b38423.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0073e3300330cceadd2ceaa220b38423.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0073e3300330cceadd2ceaa220b38423.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0073e3300330cceadd2ceaa220b38423.svg#Sky Text")
+      format("svg");
+}
+
+body,
+html {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  padding: 0;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: "Sky Text", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: #030f1f;
+  /* color: white; */
+}
+
+a,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+li,
+p {
+  color: white;
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+nav ol,
+nav ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1140px !important;
+}

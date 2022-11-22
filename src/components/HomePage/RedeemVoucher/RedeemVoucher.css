@@ -1,0 +1,151 @@
+.redeem-voucher-container {
+  margin: 30px auto 0;
+}
+
+.redeem-voucher-head {
+  text-align: center;
+}
+
+h2.redeem-voucher-title {
+  font-size: 3rem;
+  line-height: 1.04167;
+}
+
+.redeem-voucher-info {
+  font-size: 16px;
+}
+
+.redeem-voucher-top {
+  margin-top: 73px;
+}
+
+.redeem-voucher-input {
+  display: flex;
+  margin: 0 auto;
+  max-width: 455px;
+}
+
+.redeem-input {
+  border: 3px solid transparent;
+  border-radius: 3px;
+  color: #000;
+  font-size: 18px;
+  height: 45px;
+  width: 300px;
+  letter-spacing: 1px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.redeem-submit-btn {
+  width: 135px;
+  height: 45px;
+  margin-left: 25px;
+}
+
+.redeem-submit-btn {
+  background-color: #2873c5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.redeem-section a {
+  color: #78b6fa;
+}
+
+.redeem-voucher-information-container {
+  position: relative;
+}
+
+.redeem-voucher-information {
+  margin: 40px 0 50px;
+}
+
+.redeem-voucher-information-title {
+  max-width: 680px;
+}
+
+.redeem-voucher-information-content {
+  max-width: 680px;
+  margin: 0 auto 11px;
+}
+
+h3.redeem-voucher-information-title {
+  margin: 0 auto 6px;
+}
+
+.vouchers-redeem-information-paragraph-link {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-width: 680px;
+  margin: 0 auto 6px;
+  color: #78b6fa;
+}
+
+.vouchers-redeem-information-paragraph-requirements {
+  max-width: 680px;
+  margin: 0 auto 6px;
+}
+
+.accordion-item {
+  background-color: rgba(120, 182, 250, 0.05);
+}
+.collapsable-container .accordion-button {
+  background-color: rgba(120, 182, 250, 0.05);
+  color: white;
+}
+.vouchers-redeem-terms ol {
+  margin: 1.5em 0;
+  padding: 0 0 0 40px;
+  list-style: auto;
+}
+
+.vouchers-redeem-terms p {
+  margin-bottom: 6px;
+}
+
+.vouchers-redeem-terms li,
+.vouchers-redeem-terms li p {
+  color: #a3b2c4;
+  font-size: 16px;
+  line-height: 22px;
+}
+section.bg-wrapper {
+  position: relative;
+}
+section.bg-wrapper img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.accordion-button::after {
+  color: #78b6fa;
+}
+
+@media screen and (max-width: 599px) {
+  .redeem-voucher-input {
+    flex-direction: column;
+  }
+
+  .redeem-input {
+    width: 100%;
+  }
+
+  .redeem-submit-btn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  h2.redeem-voucher-title {
+    font-size: 1.875rem;
+  }
+
+  .redeem-voucher-top {
+    margin: 30px 0;
+  }
+}

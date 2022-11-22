@@ -1,0 +1,265 @@
+.signup-header {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 51px;
+  width: 100%;
+  margin-top: 0;
+  background: url(https://skyidassets-a.akamaihd.net/static/4NsqK0sWlbSXADK1Z3QMJXcTnvHZ5l6DfyuBxD054Q.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.sky-signup-logo {
+  height: 45px;
+  width: 74px;
+  margin: 0px auto;
+  background: url(https://skyidassets-a.akamaihd.net/static/DMjvbOtVqLSKd5fS83LBZ9ARBL2GeutCERBnXiU6fYy.png);
+  float: none;
+  background-size: 74px 45px;
+  background-repeat: no-repeat;
+}
+
+.signup-panel {
+  margin: 0 auto;
+  width: 20em;
+}
+
+.page-header {
+  margin-top: 50px;
+  font-size: 1.25em;
+  color: #053477;
+}
+
+div#signup-nav {
+  color: black;
+}
+
+.signup-sub-panel label {
+  font-size: 14px;
+}
+
+#signup-nav ul,
+#signup-nav ul li {
+  display: inline;
+}
+
+#signup-nav ul li:first-child {
+  border-right: 1px solid #aaa;
+}
+#signup-nav ul li a {
+  margin: 0 5px;
+}
+
+#signup-nav li a {
+  color: #0061a6;
+}
+
+.signup-sub-panel .form-group {
+  margin: 15px 0;
+}
+
+#captchaImage {
+  width: 100%;
+}
+
+.signup-link {
+  display: block;
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: #666666;
+  margin-bottom: 7px;
+}
+
+.signup-link a {
+  color: #053477;
+}
+
+button#submitButton {
+  width: 100%;
+  background-color: rgba(40, 115, 197, 0.8);
+  border-radius: 3px;
+  transition: background-color 0.2s, color 0.2s;
+  background-image: none;
+  border-style: none;
+  border-color: #0061a6;
+  min-height: 45px;
+  padding: 0.719rem;
+  font-size: 1.125rem;
+  line-height: 1.22222;
+  color: white;
+}
+
+a#cancelButton {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  transition: background-color 0.2s, color 0.2s;
+  background-image: none;
+  border-style: none;
+  border-color: #0061a6;
+  min-height: 45px;
+  padding: 0.719rem;
+  font-size: 1.125rem;
+  line-height: 1.22222;
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.danger {
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  #globalFooter {
+    display: none;
+  }
+
+  .signup-panel {
+    padding: 0 1.9625em;
+  }
+
+  div#signup-nav {
+    color: #666666;
+    font-size: 14px;
+  }
+  .signup-panel .form-control {
+    border-radius: 2px;
+  }
+
+  .signup-sub-panel label {
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .signup-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  button#submitButton {
+    width: 240px;
+  }
+
+  .signup-btns button,
+  .signup-btns a {
+    width: 240px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .signup-header {
+    height: 87px;
+  }
+
+  .sky-signup-logo {
+    height: 76px;
+    width: 126px;
+    background-size: 126px 76px;
+  }
+
+  select#title {
+    width: 120px;
+    font-size: 12px;
+    padding: 5px 10px;
+    height: 27px;
+  }
+
+  #captchaImage {
+    width: 190px;
+  }
+
+  .signup-sub-panel .form-control {
+    border-radius: 2px;
+  }
+
+  .signup-sub-panel input[type="text"],
+  .signup-sub-panel input[type="tel"],
+  .signup-sub-panel input[type="password"],
+  .signup-sub-panel input[type="email"],
+  select {
+    height: 23px;
+    font-size: 12px;
+    width: 18.333333333em;
+    padding: 1px 0px 1px 2px;
+  }
+
+  .form-check.signup-link label {
+    font-weight: 400;
+  }
+
+  .signup-btns {
+    margin-top: 1.5rem;
+  }
+
+  button#submitButton {
+    width: 50%;
+  }
+
+  a#cancelButton {
+    color: #0061a6;
+    background: none;
+    float: left;
+    font-size: 0.8em;
+    /* position: relative; */
+    margin-top: 8px;
+  }
+  /* CSS 27072022 */
+  div#signup-nav {
+    font-size: 11px;
+  }
+  .signup-sub-panel label {
+    font-size: 12px;
+  }
+
+  .form-check.signup-link {
+    width: 19em;
+  }
+
+  button#submitButton {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.22222;
+    margin-top: 8px;
+    width: 11em;
+    min-height: 30px;
+    right: 50px;
+    position: relative;
+  }
+}
+
+/*  */
+.signupFooter {
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.signupFooter {
+  clear: both;
+  width: 38.75em;
+  margin: 0.625em auto;
+  border-top: 1px solid #cccccc;
+}
+
+.signupFooter .globalFooterBottom {
+  padding: 10px 0;
+  text-align: center;
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.signupFooter #copyright {
+  float: none;
+}
+/* 
+div#signup-copyright {
+display: flex;
+justify-content: center;
+} */
+
+.signupFooter .globalFooterBottom:last-child {
+  border-bottom: none;
+}
